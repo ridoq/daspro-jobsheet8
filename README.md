@@ -105,6 +105,6 @@ Pada percobaan ke-3 akan dilakukan percobaan segitiga *, dengan sama siku dengan
     }
 ```
 
-
+3. done
 
 ---
