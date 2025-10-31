@@ -17,3 +17,32 @@ Percobaan  ini ditujukan me-review kembali perulangan yang sudah dibahas pada pe
 3.	jika kondisinya bernilai false (N = ( kurang/sama dengan 0 )) perulangan tidak akan terjadi, namun jika kondisi bernilai true (N = lebih dari 0) maka akan terjadi perulangan tak hingga karena pada _update_ menggunakan decrement yang mana pada kondisi (i <= N) variable i akan terus bernilai lebih kecil dari N hingga tak hingga.
 
 ---
+# Percobaan 2
+
+Pada percobaan ke-2 akan dilakukan percobaan tentang nested loop. Kasus yang akan diselesaikan adalah untuk membuat tampilan bujursangkar *, dengan panjang sisi sebanyak N. Misalkan N dimasukan 5, maka hasilnya adalah:
+
+```text
+*****
+*****
+*****
+*****
+*****
+```
+
+---
+## Soal
+
+1.	Perhatikan perulangan luar. Jika pada sintaks for, inisialisasi iOuter=1 diubah menjadi
+iOuter=0, apa yang akibatnya? Mengapa bisa demikian?
+2.	Kembalikan program semula dimana inisialisasi iOuter=1. Kemudian perhatikan perulangan dalam, Jika pada sintaks for, inisialisasi i=1 diubah menjadi i=0, apa yang akibatnya? Mengapa bisa demikian?
+3.	Jadi, apakah perbedaan kegunaan antara perulangan luar dengan perulangan yang berada didalamnya?
+4.	Mengapa perlu ditambahkan sintaks System.out.println(); di bawah perulangan dalam? Apa akibatnya jika sintaks tersebut dihilangkan?
+5.	Silakan commit dan push ke repository Anda.
+
+
+---
+## Jawaban
+
+1.	akibatnya adalah jumlah row/baris bintangnya akan bertambah 1 karena inisialisasi for outernya diubah menjadi 0, karena jumlah perulangannya bertambah 1 angka lebih banyak yang awal nya 1, 2, 3, 4, 5 = 5 angka, menjadi 0, 1, 2, 3, 4, 5 = 6 angka
+2. 
+---
