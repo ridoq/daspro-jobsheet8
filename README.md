@@ -45,5 +45,7 @@ iOuter=0, apa yang akibatnya? Mengapa bisa demikian?
 
 1.	akibatnya adalah jumlah row/baris bintangnya akan bertambah 1 karena inisialisasi for outernya diubah menjadi 0, karena jumlah perulangannya bertambah 1 angka lebih banyak, misal yang awal nya 1, 2, 3, 4, 5 = 5 angka, menjadi 0, 1, 2, 3, 4, 5 = 6 angka
 2. akibatnya adalah jumlah bintang pada setiap barisnya akan bertambah 1 karena inisialisasi for innernya diubah menjadi 0, karena jumlah perulangannya bertambah 1 angka lebih banyak, misal yang awal nya 1, 2, 3, 4, 5 = 5 angka, menjadi 0, 1, 2, 3, 4, 5 = 6 angka
+3. fungsi for inner adalah untuk mencetak kolom bintang pada setiap baris, sedangkan for outer berfungsi untuk mencetak baris baru menggunakan System.out.println()
+
 
 ---
